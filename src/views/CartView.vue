@@ -12,7 +12,7 @@ const toast = useToast()
 
 function checkout() {
   confirm.require({
-    message: 'Place your order for ' + cartStore.itemCount + ' item(s)?',
+    message: `Place your order for ${cartStore.itemCount} item(s)?`,
     header: 'Confirm Order',
     icon: 'pi pi-check-circle',
     acceptLabel: 'Place Order',
