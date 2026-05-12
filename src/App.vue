@@ -8,7 +8,9 @@ import AppHeader from './components/AppHeader.vue'
 <template>
   <div class="min-h-screen bg-gray-50">
     <AppHeader />
-    <RouterView />
+    <main>
+      <RouterView />
+    </main>
     <Toast />
     <ConfirmDialog />
   </div>

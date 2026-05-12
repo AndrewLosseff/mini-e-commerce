@@ -52,7 +52,7 @@ function addToCart() {
 
     <ErrorState v-if="error" :message="error" @retry="productsStore.load()" />
 
-    <div v-else-if="notFound" class="text-center py-16" role="main">
+    <div v-else-if="notFound" class="text-center py-16">
       <i class="pi pi-box text-5xl text-gray-300 mb-4 block" aria-hidden="true"></i>
       <h1 class="text-2xl font-semibold text-gray-900 mb-2">Product not found</h1>
       <p class="text-gray-500 mb-6">This product doesn't exist or may have been removed.</p>
@@ -86,6 +86,8 @@ function addToCart() {
           <img
             :src="product.thumbnailUrl"
             :alt="product.name"
+            width="300"
+            height="200"
             class="w-full rounded-xl object-cover aspect-video shadow-sm"
           />
         </div>

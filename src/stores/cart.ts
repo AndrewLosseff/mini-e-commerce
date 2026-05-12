@@ -1,13 +1,32 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
+import { z } from 'zod'
 import type { Product, CartItem } from '../types/product'
 
 const STORAGE_KEY = 'ecommerce-cart'
 
+const cartItemsSchema = z.array(
+  z.object({
+    product: z.object({
+      id: z.string(),
+      name: z.string(),
+      price: z.number(),
+      shortDescription: z.string(),
+      thumbnailUrl: z.string(),
+      longDescription: z.string(),
+      category: z.string(),
+      reviews: z.array(z.object({ username: z.string(), comment: z.string() })),
+    }),
+    quantity: z.number(),
+  }),
+)
+
 function loadFromStorage(): CartItem[] {
   try {
     const saved = localStorage.getItem(STORAGE_KEY)
-    return saved ? (JSON.parse(saved) as CartItem[]) : []
+    if (!saved) return []
+    const result = cartItemsSchema.safeParse(JSON.parse(saved))
+    return result.success ? result.data : []
   } catch {
     return []
   }

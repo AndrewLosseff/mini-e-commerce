@@ -13,6 +13,8 @@ const cartStore = useCartStore()
     <img
       :src="item.product.thumbnailUrl"
       :alt="item.product.name"
+      width="300"
+      height="200"
       class="w-16 h-16 object-cover rounded-lg flex-shrink-0"
     />
 

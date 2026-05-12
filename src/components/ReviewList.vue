@@ -17,8 +17,8 @@ defineProps<{ reviews: Review[] }>()
 
     <ul v-else class="space-y-3">
       <li
-        v-for="review in reviews"
-        :key="review.username"
+        v-for="(review, index) in reviews"
+        :key="`${review.username}-${index}`"
         class="bg-gray-50 rounded-lg p-4"
       >
         <div class="flex items-center gap-2 mb-1">
