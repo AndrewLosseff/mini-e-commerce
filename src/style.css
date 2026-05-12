@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Constrain PrimeVue Toast to viewport on small screens */
+@media (max-width: 640px) {
+  .p-toast {
+    width: calc(100vw - 2rem) !important;
+    left: 1rem;
+    right: 1rem;
+    max-width: none;
+  }
+}

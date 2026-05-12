@@ -1,0 +1,265 @@
+[
+  {
+    "id": "p1",
+    "name": "Awesome E-book Reader Pro",
+    "price": 79.99,
+    "shortDescription": "The best e-book reading experience.",
+    "thumbnailUrl": "https://placehold.co/300x200/007BFF/FFFFFF?text=E-book+Reader",
+    "longDescription": "Unlock a world of knowledge with the Awesome E-book Reader Pro. Features include adjustable font sizes, night mode, and seamless library synchronization.",
+    "category": "Software",
+    "reviews": [
+      { "username": "ReaderFan123", "comment": "Love it! So easy to use." },
+      { "username": "Bookworm_Betty", "comment": "Changed how I read forever." }
+    ]
+  },
+  {
+    "id": "p2",
+    "name": "Ultimate Graphics Suite",
+    "price": 199.5,
+    "shortDescription": "All-in-one design software.",
+    "thumbnailUrl": "https://placehold.co/300x200/28A745/FFFFFF?text=Graphics+Suite",
+    "longDescription": "The Ultimate Graphics Suite provides a comprehensive set of tools for professional photo editing and vector illustration.",
+    "category": "Software",
+    "reviews": [
+      { "username": "DesignerDan", "comment": "Powerful tools, great value!" }
+    ]
+  },
+  {
+    "id": "p3",
+    "name": "Vue.js Masterclass Course",
+    "price": 99.0,
+    "shortDescription": "Become a Vue.js expert.",
+    "thumbnailUrl": "https://placehold.co/300x200/FFC107/000000?text=Vue.js+Course",
+    "longDescription": "Covers everything from basics to advanced state management with Pinia and SSR.",
+    "category": "Online Course",
+    "reviews": [
+      { "username": "VueLearner", "comment": "Excellent course." }
+    ]
+  },
+  {
+    "id": "p4",
+    "name": "Mechanical Keyboard K-95",
+    "price": 129.99,
+    "shortDescription": "Tactile precision for developers.",
+    "thumbnailUrl": "https://placehold.co/300x200/343A40/FFFFFF?text=Keyboard",
+    "longDescription": "A premium mechanical keyboard featuring hot-swappable switches and customizable RGB lighting.",
+    "category": "Hardware",
+    "reviews": []
+  },
+  {
+    "id": "p5",
+    "name": "Ultra-Wide 34-inch Monitor",
+    "price": 450.0,
+    "shortDescription": "Expand your digital workspace.",
+    "thumbnailUrl": "https://placehold.co/300x200/17A2B8/FFFFFF?text=Monitor",
+    "longDescription": "4K resolution with curved glass, perfect for side-by-side coding and multitasking.",
+    "category": "Hardware",
+    "reviews": [
+      { "username": "PixelPerfect", "comment": "Crisp display!" }
+    ]
+  },
+  {
+    "id": "p6",
+    "name": "Python for Data Science",
+    "price": 49.99,
+    "shortDescription": "Master data analysis with Python.",
+    "thumbnailUrl": "https://placehold.co/300x200/3776AB/FFFFFF?text=Python+Course",
+    "longDescription": "Learn Pandas, NumPy, and Matplotlib from scratch.",
+    "category": "Online Course",
+    "reviews": []
+  },
+  {
+    "id": "p7",
+    "name": "Cloud Storage Plus (1TB)",
+    "price": 9.99,
+    "shortDescription": "Secure your files in the cloud.",
+    "thumbnailUrl": "https://placehold.co/300x200/6C757D/FFFFFF?text=Cloud+Storage",
+    "longDescription": "Annual subscription for encrypted cloud storage with automated backup.",
+    "category": "Subscription",
+    "reviews": []
+  },
+  {
+    "id": "p8",
+    "name": "Ergonomic Office Chair",
+    "price": 299.0,
+    "shortDescription": "Lumbar support for long hours.",
+    "thumbnailUrl": "https://placehold.co/300x200/20C997/FFFFFF?text=Chair",
+    "longDescription": "Fully adjustable mesh chair designed to reduce back strain during long sessions.",
+    "category": "Hardware",
+    "reviews": []
+  },
+  {
+    "id": "p9",
+    "name": "Go Backend Fundamentals",
+    "price": 85.0,
+    "shortDescription": "Build scalable APIs with Go.",
+    "thumbnailUrl": "https://placehold.co/300x200/00ADD8/FFFFFF?text=Go+Course",
+    "longDescription": "Deep dive into concurrency, interfaces, and microservices architecture.",
+    "category": "Online Course",
+    "reviews": [
+      { "username": "Gopher1", "comment": "The best intro to Go." }
+    ]
+  },
+  {
+    "id": "p10",
+    "name": "Noise Cancelling Headphones",
+    "price": 249.0,
+    "shortDescription": "Total focus in any environment.",
+    "thumbnailUrl": "https://placehold.co/300x200/FD7E14/FFFFFF?text=Headphones",
+    "longDescription": "Industry-leading active noise cancellation with 30-hour battery life.",
+    "category": "Hardware",
+    "reviews": []
+  },
+  {
+    "id": "p11",
+    "name": "Vector Icon Pack Pro",
+    "price": 15.0,
+    "shortDescription": "500+ premium SVG icons.",
+    "thumbnailUrl": "https://placehold.co/300x200/E83E8C/FFFFFF?text=Icons",
+    "longDescription": "Fully editable vector icons for web and mobile UI design.",
+    "category": "Digital Asset",
+    "reviews": []
+  },
+  {
+    "id": "p12",
+    "name": "React Design Patterns",
+    "price": 59.99,
+    "shortDescription": "Write cleaner React code.",
+    "thumbnailUrl": "https://placehold.co/300x200/61DAFB/000000?text=React+Course",
+    "longDescription": "Advanced patterns including HOCs, Render Props, and Compound Components.",
+    "category": "Online Course",
+    "reviews": []
+  },
+  {
+    "id": "p13",
+    "name": "Portable SSD 2TB",
+    "price": 180.0,
+    "shortDescription": "High-speed external storage.",
+    "thumbnailUrl": "https://placehold.co/300x200/6F42C1/FFFFFF?text=SSD",
+    "longDescription": "USB-C compatibility with transfer speeds up to 1050MB/s.",
+    "category": "Hardware",
+    "reviews": []
+  },
+  {
+    "id": "p14",
+    "name": "Project Management Tool",
+    "price": 12.0,
+    "shortDescription": "Organize your team's workflow.",
+    "thumbnailUrl": "https://placehold.co/300x200/DC3545/FFFFFF?text=PM+Tool",
+    "longDescription": "Kanban boards, time tracking, and reporting for agile teams.",
+    "category": "Software",
+    "reviews": []
+  },
+  {
+    "id": "p15",
+    "name": "Full-Stack Web Dev Bootcamp",
+    "price": 199.0,
+    "shortDescription": "From zero to hired.",
+    "thumbnailUrl": "https://placehold.co/300x200/FF851B/FFFFFF?text=Bootcamp",
+    "longDescription": "A 20-week program covering HTML, CSS, JS, Node, and SQL.",
+    "category": "Online Course",
+    "reviews": []
+  },
+  {
+    "id": "p16",
+    "name": "Wireless Charging Pad",
+    "price": 25.0,
+    "shortDescription": "Fast 15W charging.",
+    "thumbnailUrl": "https://placehold.co/300x200/7F8C8D/FFFFFF?text=Charger",
+    "longDescription": "Sleek aluminum base with non-slip surface for all Qi-enabled devices.",
+    "category": "Hardware",
+    "reviews": []
+  },
+  {
+    "id": "p17",
+    "name": "Cybersecurity Essentials",
+    "price": 65.0,
+    "shortDescription": "Protect your digital life.",
+    "thumbnailUrl": "https://placehold.co/300x200/2ECC71/FFFFFF?text=Cyber+Sec",
+    "longDescription": "Learn about encryption, firewalls, and social engineering defense.",
+    "category": "Online Course",
+    "reviews": []
+  },
+  {
+    "id": "p18",
+    "name": "Smart LED Desk Lamp",
+    "price": 45.0,
+    "shortDescription": "Adjustable color temperature.",
+    "thumbnailUrl": "https://placehold.co/300x200/F1C40F/000000?text=Lamp",
+    "longDescription": "App-controlled lighting with eye-protection mode and built-in timer.",
+    "category": "Hardware",
+    "reviews": []
+  },
+  {
+    "id": "p19",
+    "name": "UI/UX Design Masterclass",
+    "price": 110.0,
+    "shortDescription": "Learn Figma and user research.",
+    "thumbnailUrl": "https://placehold.co/300x200/9B59B6/FFFFFF?text=Design+Course",
+    "longDescription": "A complete guide to wireframing, prototyping, and user testing.",
+    "category": "Online Course",
+    "reviews": []
+  },
+  {
+    "id": "p20",
+    "name": "SQL Database Manager",
+    "price": 89.0,
+    "shortDescription": "Visualize your database.",
+    "thumbnailUrl": "https://placehold.co/300x200/34495E/FFFFFF?text=SQL+Manager",
+    "longDescription": "GUI for PostgreSQL, MySQL, and SQLite with query optimization tools.",
+    "category": "Software",
+    "reviews": []
+  },
+  {
+    "id": "p21",
+    "name": "Minimalist WordPress Theme",
+    "price": 49.0,
+    "shortDescription": "Fast and SEO optimized.",
+    "thumbnailUrl": "https://placehold.co/300x200/1ABC9C/FFFFFF?text=WP+Theme",
+    "longDescription": "Highly customizable theme with drag-and-drop builder support.",
+    "category": "Digital Asset",
+    "reviews": []
+  },
+  {
+    "id": "p22",
+    "name": "Premium Stock Photo Sub",
+    "price": 29.0,
+    "shortDescription": "Unlimited high-res photos.",
+    "thumbnailUrl": "https://placehold.co/300x200/E67E22/FFFFFF?text=Stock+Photos",
+    "longDescription": "Monthly access to a library of 1M+ royalty-free images.",
+    "category": "Subscription",
+    "reviews": []
+  },
+  {
+    "id": "p23",
+    "name": "Microphone for Podcasting",
+    "price": 150.0,
+    "shortDescription": "Studio quality audio.",
+    "thumbnailUrl": "https://placehold.co/300x200/C0392B/FFFFFF?text=Mic",
+    "longDescription": "Cardioid polar pattern reduces background noise for clear vocals.",
+    "category": "Hardware",
+    "reviews": []
+  },
+  {
+    "id": "p24",
+    "name": "Intro to Machine Learning",
+    "price": 120.0,
+    "shortDescription": "Algorithms and predictive modeling.",
+    "thumbnailUrl": "https://placehold.co/300x200/8E44AD/FFFFFF?text=ML+Course",
+    "longDescription": "Covers supervised and unsupervised learning using Scikit-Learn.",
+    "category": "Online Course",
+    "reviews": []
+  },
+  {
+    "id": "p25",
+    "name": "Web Accessibility Workshop",
+    "price": 40.0,
+    "shortDescription": "Build inclusive web apps.",
+    "thumbnailUrl": "https://placehold.co/300x200/2980B9/FFFFFF?text=A11y+Course",
+    "longDescription": "Learn WCAG guidelines and screen reader optimization.",
+    "category": "Online Course",
+    "reviews": [
+      { "username": "WebDevA11y", "comment": "Essential for modern devs." }
+    ]
+  }
+]
