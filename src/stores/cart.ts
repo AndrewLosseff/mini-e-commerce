@@ -22,7 +22,11 @@ export const useCartStore = defineStore('cart', () => {
   )
 
   function save() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(items.value))
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(items.value))
+    } catch {
+      // Storage quota exceeded (e.g. Safari private browsing) — state lives in memory only
+    }
   }
 
   function addItem(product: Product) {

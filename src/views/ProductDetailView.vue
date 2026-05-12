@@ -15,11 +15,11 @@ const route = useRoute()
 const productsStore = useProductsStore()
 const cartStore = useCartStore()
 const toast = useToast()
-const { loading, error } = storeToRefs(productsStore)
+const { loading, loaded, error } = storeToRefs(productsStore)
 
 const productId = computed(() => route.params.id as string)
 const product = computed(() => productsStore.getById(productId.value))
-const notFound = computed(() => !loading.value && !error.value && !product.value)
+const notFound = computed(() => loaded.value && !loading.value && !error.value && !product.value)
 
 onMounted(() => productsStore.load())
 
