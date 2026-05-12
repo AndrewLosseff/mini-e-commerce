@@ -12,6 +12,8 @@ npm install
 npm run dev       # http://localhost:5173 (or next available port)
 ```
 
+or go to `deluxe-crostata-b83517.netlify.app` 
+
 ---
 
 ## Available scripts
